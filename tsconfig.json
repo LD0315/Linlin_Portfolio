@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "moduleResolution": "node",
+        "target": "es2020",
+        "module": "es2020",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "jsx": "react-jsx",
+        "useDefineForClassFields": true
+    },
+    "include": [
+        "src",
+        "src/*.d.ts",
+        ".*.js",
+        "*.ts"
+    ]
+}
